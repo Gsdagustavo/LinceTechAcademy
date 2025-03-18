@@ -22,8 +22,8 @@ void main() {
     return;
   }
 
-  double x1 = (-b + raizQuadrada(delta, precisao)) / 2 * a;
-  double x2 = (-b - raizQuadrada(delta, precisao)) / 2 * a;
+  double x1 = (-b + raizQuadrada(delta, precisao)) / (2 * a);
+  double x2 = (-b - raizQuadrada(delta, precisao)) / (2 * a);
 
   print('A: $a, B: $b, C: $c');
   print('X1: $x1, X2: $x2');
@@ -51,9 +51,11 @@ double calcularDelta(double a, double b, double c) {
 }
 
 double pow(double x, double expoente) {
+  double resultado = 1;
+
   for (int i = 0; i < expoente; i++) {
-    x *= x;
+    resultado *= x;
   }
 
-  return x;
+  return resultado;
 }
