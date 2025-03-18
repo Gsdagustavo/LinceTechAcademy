@@ -16,14 +16,13 @@ void main() {
   int quantConsoantes = letras['consoantes']!;
 
   int quantLetras = calcularQuantLetras(texto);
+  int quantPalavras = calcularQuantPalavras(texto);
 
-  print('Quantidade de vogais: ${quantVogais}');
-  print('Quantidade de consoantes: ${quantConsoantes}');
+  print('\nQuantidade de vogais: $quantVogais');
+  print('Quantidade de consoantes: $quantConsoantes');
 
-  print('Quantidade de letras: ${quantLetras}');
-
-
-
+  print('Quantidade de letras: $quantLetras');
+  print('Quantidade de palavras: $quantPalavras');
 }
 
 Map<String, int> calcularQuantVogais_Consoantes(String texto) {
@@ -63,3 +62,12 @@ int calcularQuantLetras(String texto) {
   return quantLetras;
 }
 
+int calcularQuantPalavras(String texto) {
+  int quantPalavras = 0;
+
+  for (String palavra in texto.split(' ')) {
+    quantPalavras++;
+  }
+
+  return quantPalavras;
+}
