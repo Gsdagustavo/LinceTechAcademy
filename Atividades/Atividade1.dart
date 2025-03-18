@@ -4,18 +4,26 @@ import '../Util/Input.dart';
 
 void main() {
 
-  // testar a funcao pegar inputs de strings
-  stdout.write('string: ');
-  String name = Input.getStringInput();
-  print(name);
+  // pede ao usuario para inserir os numeros
+  stdout.write('Insira o primeiro numero: ');
+  double n1 = Input.getDoubleInput();
 
-  // testar a funcao para pegar inputs de inteiros
-  stdout.write('\nint: ');
-  int num = Input.getIntInput();
-  print(num);
+  stdout.write('Insira o segundo numero: ');
+  double n2 = Input.getDoubleInput();
 
-  // testar a funcao para pegar inputs de doubles
-  stdout.write('\ndouble: ');
-  double dNum = Input.getDoubleInput();
-  print(dNum);
+  // inicializa a variavel para armazenar o valor do resultado
+  double resultado = 0;
+
+  // forma mais compacta de resolver, porem menos legivel
+  // resultado = (n1 > n2) ? n1 / n2 : n2 / n1;
+
+  // forma mais longa, porem legivel
+  if (n1 > n2) {
+    resultado = n1 / n2;
+  } else {
+    resultado = n2 / n1;
+  }
+
+  // mostra o resultado final ao usuario
+  print('Resultado: $resultado');
 }
