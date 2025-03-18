@@ -2,6 +2,9 @@ import 'dart:io';
 
 import '../Util/Input.dart';
 
+const String vogais = 'aeiouAEIOU';
+const String consoantes = 'bcdfghjklmnpqrstvwxyzBCDFGHJKLMNPQRSTVWXYZ';
+
 void main() {
   stdout.write('Insira um texto e eu o analisarei: ');
   String texto = Input.getStringInput();
@@ -12,8 +15,14 @@ void main() {
   int quantVogais = letras['vogais']!;
   int quantConsoantes = letras['consoantes']!;
 
+  int quantLetras = calcularQuantLetras(texto);
+
   print('Quantidade de vogais: ${quantVogais}');
   print('Quantidade de consoantes: ${quantConsoantes}');
+
+  print('Quantidade de letras: ${quantLetras}');
+
+
 
 }
 
@@ -21,9 +30,6 @@ Map<String, int> calcularQuantVogais_Consoantes(String texto) {
 
   int quantVogais = 0;
   int quantConsoantes = 0;
-
-  const String vogais = 'aeiouAEIOU';
-  const String consoantes = 'bcdfghjklmnpqrstvwxyzBCDFGHJKLMNPQRSTVWXYZ';
 
   // contar cada letra de acordo com sua classificacao (vogal ou consoante)
   for (String letra in texto.split('')) {
@@ -44,3 +50,16 @@ Map<String, int> calcularQuantVogais_Consoantes(String texto) {
 
   return letras;
 }
+
+int calcularQuantLetras(String texto) {
+  int quantLetras = 0;
+
+  for (String letra in texto.split('')) {
+    if (consoantes.contains(letra) || vogais.contains(letra)) {
+      quantLetras++;
+    }
+  }
+
+  return quantLetras;
+}
+
