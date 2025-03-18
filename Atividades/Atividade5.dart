@@ -1,9 +1,10 @@
 import 'dart:io';
-import 'dart:math';
 
 import '../Util/Input.dart';
 
 void main() {
+
+  const double precisao = 0.0000000001;
 
   stdout.write('Insira o coeficiente A: ');
   double a = Input.getDoubleInput();
@@ -21,6 +22,22 @@ void main() {
     return;
   }
 
+}
+
+// funcao que utiliza o metodo de Newton-Rhapson para calcular a raiz quadrada aproximada
+double raizQuadrada(double n, double precisao) {
+  if (n < 0) {
+    print('Erro: não existem raizes reais para o numero $n');
+    return 0;
+  }
+
+  double r = n / 2;
+
+  while ((r * r - n).abs() > precisao) {
+    r = (r + n / r) / 2; // formula de Newton-Raphson
+  }
+
+  return r;
 }
 
 // funcao para calcular o valor de delta a partir dos 3 coeficientes
