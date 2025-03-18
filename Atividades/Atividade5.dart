@@ -22,6 +22,11 @@ void main() {
     return;
   }
 
+  double x1 = (-b + raizQuadrada(delta, precisao)) / 2 * a;
+  double x2 = (-b - raizQuadrada(delta, precisao)) / 2 * a;
+
+  print('A: $a, B: $b, C: $c');
+  print('X1: $x1, X2: $x2');
 }
 
 // funcao que utiliza o metodo de Newton-Rhapson para calcular a raiz quadrada aproximada
@@ -42,7 +47,7 @@ double raizQuadrada(double n, double precisao) {
 
 // funcao para calcular o valor de delta a partir dos 3 coeficientes
 double calcularDelta(double a, double b, double c) {
-  return (pow(b, 4) - (4 * a * c));
+  return (pow(b, 2) - (4 * a * c));
 }
 
 double pow(double x, double expoente) {
