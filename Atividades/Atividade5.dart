@@ -4,6 +4,8 @@ import '../Util/Input.dart';
 
 void main() {
 
+  print('=-=-=-=-=-=- CALCULADORA BASKHARA =-=-=-=-=-\n');
+
   const double precisao = 0.0000000001;
 
   stdout.write('Insira o coeficiente A: ');
