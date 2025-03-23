@@ -6,7 +6,7 @@ void main() {
   const quantNums = 10;
   const maxValue = 100;
 
-  // instancia a lista de numeros e realiza a funcao popularLista nela
+  // instancia a lista de numeros e executa a funcao popularLista nela
   List<int> numeros = [];
   numeros = popularLista(numeros, quantNums, maxValue);
 
