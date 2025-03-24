@@ -4,12 +4,13 @@ import 'ap1.dart';
 
 void main() {
   // constantes para definir o tamanho da lista e o valor maximo dos numeros
-  const quantNums = 50;
-  const maxValue = 15;
+  const int quantNums = 50;
+  const int maxValue = 15;
+  const int minValue = 1;
 
   // instancia a lista de numeros e executa a funcao popularLista nela
   List<int> numeros = [];
-  numeros = popularLista(numeros, quantNums, maxValue);
+  numeros = popularLista(numeros, quantNums, maxValue, minValue);
 
   // printa a lista original, sem modificacoes
   stdout.write('Lista original: ');
