@@ -45,8 +45,8 @@ void main() {
 /// Recebe uma lista de numeros como argumento e a popula de acordo com os argumentos recebidos,
 /// ou popula automaticamente com os argumentos predefenidos
 List<double> criarListaPopulada({int valorMinimo = 1, int valorMaximo = 100, int length = 10}) {
-  Random random = Random();
-  List<double> lista = [];
+  final Random random = Random();
+  final List<double> lista = [];
 
   // adiciona elementos à lista de acordo com o parametro length.
   // os elementos possuem valor decimal entre 0.0 e 1.0, e valor inteiro entre 0 e 'valorMaximo'
@@ -65,6 +65,6 @@ double calcularPerimetro(final double raio) {
 
 /// Retorna a area um circulo dado o seu raio
 double calcularArea(double raio) {
-  double resultado = pi * raio * raio;
+  final double resultado = pi * raio * raio;
   return resultado;
 }
