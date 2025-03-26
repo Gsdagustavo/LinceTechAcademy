@@ -1,5 +1,5 @@
 void main() {
-  List<int> anos = [2016, 1988, 2000, 2100, 2300, 1993];
+  final List<int> anos = [2016, 1988, 2000, 2100, 2300, 1993];
 
   anos.forEach((ano) {
     // print('O ano $ano ${isBissexto(ano) ? '' : 'nao '}é bissexto');
