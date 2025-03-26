@@ -16,7 +16,7 @@ void main() {
   ];
 
   final List<int> listaConvertida = converterLista(listaStrings);
-  print(listaConvertida);
+  print('Lista convertida: ${listaConvertida.join(', ')}');
 }
 
 
