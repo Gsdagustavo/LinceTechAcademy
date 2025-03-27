@@ -32,7 +32,7 @@ void main() {
 /// para remover todos os nomes que nao forem iguais ao [nome], e retornei o tamanho da nova lista
 /// após
 int contarNome(List<String> listaNomes, String nome) {
-  List<String> novaLista = listaNomes.toList();
+  final List<String> novaLista = listaNomes.toList();
 
   novaLista.removeWhere((elemento) => elemento != nome);
 
