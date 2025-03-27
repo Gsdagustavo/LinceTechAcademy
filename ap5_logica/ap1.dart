@@ -11,15 +11,23 @@ void main() {
     return;
   }
 
-  imprimirNumeros(numeroInicial: numeroInicial);
+  final List<int> lista = getNumerosImpares(numeroInicial: numeroInicial);
+  
+  lista.forEach((num) {
+    print('Impar: $num');
+  });
 }
 
-/// Imprime todos os numeros impares de 1 ate o numero fornecido (inclusivo)
-void imprimirNumeros({required int numeroInicial}) {
+/// Retorna uma lista contendo todos os numeros impares de 1 ate o numero fornecido (inclusivo)
+List<int> getNumerosImpares({required int numeroInicial}) {
 
+  final List<int> lista = [];
+  
   for (int i = 1; i <= numeroInicial; i++) {
     if (i.isOdd) {
-      print('Impar: $i');
+      lista.add(i);
     }
   }
+  
+  return lista;
 }
