@@ -38,3 +38,15 @@ int contarNome(List<String> listaNomes, String nome) {
 
   return novaLista.length;
 }
+
+// int contarNome(List<String> listaNomes, String nome) {
+//   int contador = 0;
+//
+//   for (String elemento in listaNomes) {
+//     if (elemento == nome) {
+//       contador++;
+//     }
+//   }
+//
+//   return contador;
+// }
