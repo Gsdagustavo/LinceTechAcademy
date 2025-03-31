@@ -1,7 +1,7 @@
 import 'dart:math';
 
 void main() {
-  const double valorMaximo = 99;
+  const int valorMaximo = 99;
 
   final Random random = Random();
 
@@ -16,6 +16,9 @@ void main() {
   final double randomBase = random.nextDouble() * valorMaximo;
   final double randomAltura = random.nextDouble() * valorMaximo;
 
+  // print(randomBase);
+  // print(randomAltura);
+
   Retangulo? retangulo;
 
   try {
@@ -29,7 +32,7 @@ void main() {
   if (retangulo != null) {
     final double area = retangulo.calcularArea();
 
-    print('Area do retangulo: $area');
+    print('Area do retangulo: ${area.toStringAsFixed(2)}');
   }
 }
 
