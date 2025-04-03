@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3129578-7f0e-4821-8ccf-3f7a46833952" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/ap7_oop1/ap1.dart" beforeDir="false" afterPath="$PROJECT_DIR$/ap7_oop1/ap1.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atividades_Dart/ap7_oop1/ap4.dart" beforeDir="false" afterPath="$PROJECT_DIR$/Atividades_Dart/ap7_oop1/ap4.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,12 +50,13 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Dart Command Line App.ap1.dart.executor": "Run",
+    "Dart Command Line App.ap4.dart.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "atv__oop1",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/DANIEL/Documents/lince/ap7_oop1",
+    "last_opened_file_path": "C:/Users/DANIEL/Documents/Atividades_Dart",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -105,6 +107,7 @@
       <workItem from="1743553387131" duration="11000" />
       <workItem from="1743615308170" duration="2357000" />
       <workItem from="1743618650664" duration="258000" />
+      <workItem from="1743699254887" duration="1258000" />
     </task>
     <servers />
   </component>
