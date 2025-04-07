@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3129578-7f0e-4821-8ccf-3f7a46833952" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Atividades_Dart/ap8_oop2/ap4.dart" beforeDir="false" afterPath="$PROJECT_DIR$/Atividades_Dart/ap8_oop2/ap4.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atividades_Dart/ap9_concorrencia/ap2.dart" beforeDir="false" afterPath="$PROJECT_DIR$/Atividades_Dart/ap9_concorrencia/ap2.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,9 +55,9 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "atv__oop2",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/DANIEL/Documents/Atividades_Dart/Atividades_Dart/ap8_oop2",
+    "last_opened_file_path": "C:/Users/DANIEL/Documents/Atividades_Dart/Atividades_Dart/ap9_concorrencia",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -70,6 +69,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\DANIEL\Documents\Atividades_Dart\Atividades_Dart\ap9_concorrencia" />
       <recent name="C:\Users\DANIEL\Documents\Atividades_Dart\Atividades_Dart\ap8_oop2" />
       <recent name="C:\Users\DANIEL\Documents\lince\ap7_oop1" />
     </key>
@@ -112,6 +112,7 @@
       <workItem from="1743618650664" duration="258000" />
       <workItem from="1743699254887" duration="2660000" />
       <workItem from="1743751088769" duration="2275000" />
+      <workItem from="1744008885837" duration="309000" />
     </task>
     <servers />
   </component>
