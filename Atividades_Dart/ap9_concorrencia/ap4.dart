@@ -1,3 +1,5 @@
+import 'dart:math';
+
 class Pessoa {
   String _nome;
   int _idade;
@@ -34,6 +36,8 @@ void main() async {
   // adiciona as 5 pessoas declaradas acima ao set
   final Set<Pessoa> dados = {pessoa1, pessoa2, pessoa3, pessoa4, pessoa5};
 
+  final random = Random();
+
   // define a pessoa 5 como alvo da busca
   final alvo = pessoa5;
 
@@ -53,6 +57,10 @@ void main() async {
 /// Retorna a [Pessoa] se ela for encontrada. Caso contrário, retorna [null]
 Future<Pessoa?> buscarDados({required Pessoa alvo, required Iterable<Pessoa> dados}) async {
   print('Iniciando busca...');
+
+  // apos terminar a atividade, encontrei o metodo firstWhere(), que retorna o primeiro elemento que satisfaça
+  // a função anônima passada como argumento, ou null caso não o elemento não exista
+  Pessoa? p = dados.firstWhere((e) => e.nome == alvo.nome && e.idade == alvo.idade, orElse: null);
 
   await Future.delayed(Duration(seconds: 1));
 
