@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3129578-7f0e-4821-8ccf-3f7a46833952" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Atividades_Dart/ap9_concorrencia/ap2.dart" beforeDir="false" afterPath="$PROJECT_DIR$/Atividades_Dart/ap9_concorrencia/ap2.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atividades_Dart/ap9_concorrencia/ap4.dart" beforeDir="false" afterPath="$PROJECT_DIR$/Atividades_Dart/ap9_concorrencia/ap4.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +113,7 @@
       <workItem from="1743618650664" duration="258000" />
       <workItem from="1743699254887" duration="2660000" />
       <workItem from="1743751088769" duration="2275000" />
-      <workItem from="1744008885837" duration="309000" />
+      <workItem from="1744008885837" duration="1608000" />
     </task>
     <servers />
   </component>
