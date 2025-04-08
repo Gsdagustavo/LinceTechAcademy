@@ -19,7 +19,7 @@ void main() {
   final retanguloDeMaiorArea = comparador.formaDeMaiorArea(retanguloA, retanguloB,);
 
   // retorna a forma com maior área
-  final formaMaiorArea = (circuloDeMaiorArea.calcularArea() > retanguloDeMaiorArea.calcularArea()) ? circuloDeMaiorArea : retanguloDeMaiorArea;
+  final formaMaiorArea = comparador.formaDeMaiorArea(circuloDeMaiorArea, retanguloDeMaiorArea);
   print('A maior área é ${formaMaiorArea.calcularArea().toStringAsFixed(2)} e pertence a ${formaMaiorArea.nome}');
 
   /// Perimetros
@@ -29,7 +29,7 @@ void main() {
   final retanguloDeMaiorPerimetro = comparador.formaDeMaiorPerimetro(retanguloA, retanguloB,);
 
   // retorna a forma com maior perímetro
-  final formaMaiorPerimetro = (circuloDeMaiorPerimetro.calcularPerimetro() > retanguloDeMaiorPerimetro.calcularPerimetro()) ? circuloDeMaiorPerimetro : retanguloDeMaiorPerimetro;
+  final formaMaiorPerimetro = comparador.formaDeMaiorPerimetro(circuloDeMaiorPerimetro, retanguloDeMaiorPerimetro);
   print('O maior perímetro é ${formaMaiorPerimetro.calcularPerimetro().toStringAsFixed(2)} e pertence a ${formaMaiorPerimetro.nome}');
 }
 
@@ -40,21 +40,13 @@ class ComparadorFormasGeometricas {
   /// Retorna a forma com a maior área, ou [formaA] caso as áreas sejam
   /// iguais
   Forma formaDeMaiorArea(Forma formaA, Forma formaB) {
-    if (formaA.calcularArea() >= formaB.calcularArea()) {
-      return formaA;
-    }
-
-    return formaB;
+    return (formaA.calcularArea() >= formaB.calcularArea()) ? formaA : formaB;
   }
 
   /// Retorna a forma com o maior perímetro, ou [formaA] caso os perímetros
   /// sejam iguais
   Forma formaDeMaiorPerimetro(Forma formaA, Forma formaB) {
-    if (formaA.calcularPerimetro() >= formaB.calcularPerimetro()) {
-      return formaA;
-    }
-
-    return formaB;
+    return (formaA.calcularPerimetro() >= formaB.calcularPerimetro()) ? formaA : formaB;
   }
 }
 
