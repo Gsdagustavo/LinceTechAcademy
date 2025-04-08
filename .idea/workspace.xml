@@ -5,8 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3129578-7f0e-4821-8ccf-3f7a46833952" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Desafios_Dart/dd2/d1.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Desafios_Dart/dd2/d2.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Desafios_Dart/dd2/d3.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Desafios_Dart/dd2/d4.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Desafios_Dart/dd2/d5.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Desafios_Dart/dd2/d6.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Desafios_Dart/dd2/d7.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Desafios_Dart/dd2/d8.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Desafios_Dart/dd2/d9.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dd1/d7.dart" beforeDir="false" afterPath="$PROJECT_DIR$/dd1/d7.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desafios_Dart/dd1/d7.dart" beforeDir="false" afterPath="$PROJECT_DIR$/Desafios_Dart/dd1/d7.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,9 +72,9 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "desafio__1",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/DANIEL/Documents/Atividades_Dart/dd1",
+    "last_opened_file_path": "C:/Users/DANIEL/Documents/Atividades_Dart/Desafios_Dart/dd2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -82,6 +91,9 @@
       <recent name="C:\Users\DANIEL\Documents\Atividades_Dart\Atividades_Dart\ap9_concorrencia" />
       <recent name="C:\Users\DANIEL\Documents\Atividades_Dart\Atividades_Dart\ap8_oop2" />
       <recent name="C:\Users\DANIEL\Documents\lince\ap7_oop1" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\DANIEL\Documents\Atividades_Dart\Desafios_Dart" />
     </key>
   </component>
   <component name="RunManager">
@@ -124,6 +136,7 @@
       <workItem from="1743751088769" duration="2275000" />
       <workItem from="1744008885837" duration="1635000" />
       <workItem from="1744043423467" duration="4636000" />
+      <workItem from="1744129822260" duration="1590000" />
     </task>
     <servers />
   </component>

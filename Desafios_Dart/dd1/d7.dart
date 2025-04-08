@@ -53,7 +53,7 @@ int somaRecursiva(List<int> numeros, [int indice = 0]) {
 int somaLista(List<int> numeros) {
 
   // primeiramente, eu usei o metodo foreach para calcular a soma.
-  // Porem, ao ler um pouco a documentacao, encontrei o metodo redue(),
+  // Porem, ao ler um pouco a documentacao, encontrei o metodo reduce(),
   // que eu acredito que seja um metodo mais adequado para essa situacao
 
   return numeros.reduce((a, b) => a + b);
