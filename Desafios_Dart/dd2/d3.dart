@@ -10,7 +10,7 @@ void main() {
     Musica('Eye In The Sky', 'The Alan Parsons Project', 'Eye In The Sky', 276),
     Musica('Maria Magdalena', 'Sandra', 'Sandra\'s 18 Greatest Hits', 240),
     Musica('Another Brick in the Wall, Pt.2', 'Pink Floyd', 'The Wall', 238),
-    Musica('San Tropez', 'Pink Floyd', 'Meddle', 223)
+    Musica('San Tropez', 'Pink Floyd', 'Meddle', 10000)
   ];
 
   biblioteca.addMusicasFromList(musicas);
@@ -35,6 +35,8 @@ void main() {
 
   print('Musicas do artista $pesquisaArtista:');
   biblioteca.mostrarMusicas(pesquisa3);
+
+  print('Tempo total das musicas: ${biblioteca.tempoTotalDeMusicas()}');
 }
 
 /// Classe que representa uma música em uma biblioteca de músicas
@@ -144,5 +146,16 @@ class BibliotecaMusicas {
     for (final (index, musica) in musicas.indexed) {
       print('${index + 1}#\n$musica');
     }
+  }
+
+  /// Retorna uma string formatada contendo o tempo
+  String tempoTotalDeMusicas() {
+    var totalSegundos = _musicasDisponiveis.fold(0, (soma, musica) => soma + musica.duracao);
+
+    final horas = totalSegundos ~/ 3600;
+    final minutos = (totalSegundos % 3600) ~/ 60;
+    final segundos = totalSegundos % 60;
+
+    return '${horas}h ${minutos}m ${segundos}s';
   }
 }
