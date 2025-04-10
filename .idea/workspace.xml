@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3129578-7f0e-4821-8ccf-3f7a46833952" name="Changes" comment="">
+    <list default="true" id="b3129578-7f0e-4821-8ccf-3f7a46833952" name="Changes" comment="desafios_2: desafio 3: adicionada a funcionalidade de mostrar o tempo total de músicas da biblioteca">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Desafios_Dart/dd2/d5.dart" beforeDir="false" afterPath="$PROJECT_DIR$/Desafios_Dart/dd2/d5.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios_Dart/dd2/d9.dart" beforeDir="false" afterPath="$PROJECT_DIR$/Desafios_Dart/dd2/d9.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,10 +131,26 @@
       <workItem from="1744043423467" duration="4636000" />
       <workItem from="1744129822260" duration="21360000" />
       <workItem from="1744161388589" duration="428000" />
+      <workItem from="1744216051624" duration="586000" />
+      <workItem from="1744302837381" duration="2512000" />
+      <workItem from="1744308620518" duration="4257000" />
     </task>
+    <task id="LOCAL-00001" summary="desafios_2: desafio 3: adicionada a funcionalidade de mostrar o tempo total de músicas da biblioteca">
+      <option name="closed" value="true" />
+      <created>1744314634817</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1744314634817</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="desafios_2: desafio 3: adicionada a funcionalidade de mostrar o tempo total de músicas da biblioteca" />
+    <option name="LAST_COMMIT_MESSAGE" value="desafios_2: desafio 3: adicionada a funcionalidade de mostrar o tempo total de músicas da biblioteca" />
   </component>
 </project>
