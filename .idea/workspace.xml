@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3129578-7f0e-4821-8ccf-3f7a46833952" name="Changes" comment="desafios_2: desafio 3: adicionada a funcionalidade de mostrar o tempo total de músicas da biblioteca">
+    <list default="true" id="b3129578-7f0e-4821-8ccf-3f7a46833952" name="Changes" comment="versao preliminar do desafio 8 do modulo de desafios 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios_Dart/dd2/d5.dart" beforeDir="false" afterPath="$PROJECT_DIR$/Desafios_Dart/dd2/d5.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Desafios_Dart/dd2/d8.dart" beforeDir="false" afterPath="$PROJECT_DIR$/Desafios_Dart/dd2/d8.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +60,7 @@
     &quot;Dart Command Line App.d5.dart.executor&quot;: &quot;Run&quot;,
     &quot;Dart Command Line App.d6.dart.executor&quot;: &quot;Run&quot;,
     &quot;Dart Command Line App.d7.dart.executor&quot;: &quot;Run&quot;,
+    &quot;Dart Command Line App.d8.dart.executor&quot;: &quot;Run&quot;,
     &quot;Dart Command Line App.d9.dart.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
@@ -133,7 +134,8 @@
       <workItem from="1744161388589" duration="428000" />
       <workItem from="1744216051624" duration="586000" />
       <workItem from="1744302837381" duration="2512000" />
-      <workItem from="1744308620518" duration="4257000" />
+      <workItem from="1744308620518" duration="10170000" />
+      <workItem from="1744330041105" duration="4581000" />
     </task>
     <task id="LOCAL-00001" summary="desafios_2: desafio 3: adicionada a funcionalidade de mostrar o tempo total de músicas da biblioteca">
       <option name="closed" value="true" />
@@ -143,7 +145,23 @@
       <option name="project" value="LOCAL" />
       <updated>1744314634817</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="resolvido o desafio 5 do modulo de desafios 2">
+      <option name="closed" value="true" />
+      <created>1744317845685</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1744317845685</updated>
+    </task>
+    <task id="LOCAL-00003" summary="resolvido o desafio 9 do modulo de desafios 2">
+      <option name="closed" value="true" />
+      <created>1744323688425</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1744323688425</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,6 +169,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="desafios_2: desafio 3: adicionada a funcionalidade de mostrar o tempo total de músicas da biblioteca" />
-    <option name="LAST_COMMIT_MESSAGE" value="desafios_2: desafio 3: adicionada a funcionalidade de mostrar o tempo total de músicas da biblioteca" />
+    <MESSAGE value="resolvido o desafio 5 do modulo de desafios 2" />
+    <MESSAGE value="resolvido o desafio 9 do modulo de desafios 2" />
+    <MESSAGE value="versao preliminar do desafio 8 do modulo de desafios 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="versao preliminar do desafio 8 do modulo de desafios 2" />
   </component>
 </project>
