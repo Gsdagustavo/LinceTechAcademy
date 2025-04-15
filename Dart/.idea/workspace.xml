@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b3129578-7f0e-4821-8ccf-3f7a46833952" name="Changes" comment="resolvido o desafio 8 do modulo de desafios 2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Gsdagustavo&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Gsdagustavo/Atividades_Dart.git&quot;,
+    &quot;accountId&quot;: &quot;2afcc07e-5cc2-475b-8e6e-bfae6e1ea8b0&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2v2RSf28IANLASrZrRyOKqDPhTR" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Dart Command Line App.ap1.dart.executor&quot;: &quot;Run&quot;,
+    &quot;Dart Command Line App.ap2.dart.executor&quot;: &quot;Run&quot;,
+    &quot;Dart Command Line App.ap3.dart.executor&quot;: &quot;Run&quot;,
+    &quot;Dart Command Line App.ap4.dart.executor&quot;: &quot;Run&quot;,
+    &quot;Dart Command Line App.d1.dart.executor&quot;: &quot;Run&quot;,
+    &quot;Dart Command Line App.d2.dart.executor&quot;: &quot;Run&quot;,
+    &quot;Dart Command Line App.d3.dart.executor&quot;: &quot;Run&quot;,
+    &quot;Dart Command Line App.d4.dart.executor&quot;: &quot;Run&quot;,
+    &quot;Dart Command Line App.d5.dart.executor&quot;: &quot;Run&quot;,
+    &quot;Dart Command Line App.d6.dart.executor&quot;: &quot;Run&quot;,
+    &quot;Dart Command Line App.d7.dart.executor&quot;: &quot;Run&quot;,
+    &quot;Dart Command Line App.d8.dart.executor&quot;: &quot;Run&quot;,
+    &quot;Dart Command Line App.d9.dart.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/DANIEL/Documents/Atividades_Dart/Desafios_Dart/dd2&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;copyright&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\DANIEL\Documents\Atividades_Dart\Desafios_Dart\dd2" />
+      <recent name="C:\Users\DANIEL\Documents\Atividades_Dart\dd1" />
+      <recent name="C:\Users\DANIEL\Documents\Atividades_Dart\Atividades_Dart\ap9_concorrencia" />
+      <recent name="C:\Users\DANIEL\Documents\Atividades_Dart\Atividades_Dart\ap8_oop2" />
+      <recent name="C:\Users\DANIEL\Documents\lince\ap7_oop1" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\DANIEL\Documents\Atividades_Dart\Desafios_Dart" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="lince" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="lince" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b3129578-7f0e-4821-8ccf-3f7a46833952" name="Changes" comment="" />
+      <created>1743341184113</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1743341184113</updated>
+      <workItem from="1743341185296" duration="400000" />
+      <workItem from="1743368878514" duration="509000" />
+      <workItem from="1743525071893" duration="1179000" />
+      <workItem from="1743527883575" duration="221000" />
+      <workItem from="1743553387131" duration="11000" />
+      <workItem from="1743615308170" duration="2357000" />
+      <workItem from="1743618650664" duration="258000" />
+      <workItem from="1743699254887" duration="2660000" />
+      <workItem from="1743751088769" duration="2275000" />
+      <workItem from="1744008885837" duration="1635000" />
+      <workItem from="1744043423467" duration="4636000" />
+      <workItem from="1744129822260" duration="21360000" />
+      <workItem from="1744161388589" duration="428000" />
+      <workItem from="1744216051624" duration="586000" />
+      <workItem from="1744302837381" duration="2512000" />
+      <workItem from="1744308620518" duration="10170000" />
+      <workItem from="1744330041105" duration="4581000" />
+      <workItem from="1744335867610" duration="35000" />
+    </task>
+    <task id="LOCAL-00001" summary="desafios_2: desafio 3: adicionada a funcionalidade de mostrar o tempo total de músicas da biblioteca">
+      <option name="closed" value="true" />
+      <created>1744314634817</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1744314634817</updated>
+    </task>
+    <task id="LOCAL-00002" summary="resolvido o desafio 5 do modulo de desafios 2">
+      <option name="closed" value="true" />
+      <created>1744317845685</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1744317845685</updated>
+    </task>
+    <task id="LOCAL-00003" summary="resolvido o desafio 9 do modulo de desafios 2">
+      <option name="closed" value="true" />
+      <created>1744323688425</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1744323688425</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="desafios_2: desafio 3: adicionada a funcionalidade de mostrar o tempo total de músicas da biblioteca" />
+    <MESSAGE value="resolvido o desafio 5 do modulo de desafios 2" />
+    <MESSAGE value="resolvido o desafio 9 do modulo de desafios 2" />
+    <MESSAGE value="versao preliminar do desafio 8 do modulo de desafios 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="versao preliminar do desafio 8 do modulo de desafios 2" />
+  </component>
+</project>
