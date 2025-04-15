@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3129578-7f0e-4821-8ccf-3f7a46833952" name="Changes" comment="versao preliminar do desafio 8 do modulo de desafios 2">
+    <list default="true" id="b3129578-7f0e-4821-8ccf-3f7a46833952" name="Changes" comment="resolvido o desafio 8 do modulo de desafios 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Desafios_Dart/dd2/d8.dart" beforeDir="false" afterPath="$PROJECT_DIR$/Desafios_Dart/dd2/d8.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +64,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;desafio__2&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/DANIEL/Documents/Atividades_Dart/Desafios_Dart/dd2&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -136,6 +135,7 @@
       <workItem from="1744302837381" duration="2512000" />
       <workItem from="1744308620518" duration="10170000" />
       <workItem from="1744330041105" duration="4581000" />
+      <workItem from="1744335867610" duration="35000" />
     </task>
     <task id="LOCAL-00001" summary="desafios_2: desafio 3: adicionada a funcionalidade de mostrar o tempo total de músicas da biblioteca">
       <option name="closed" value="true" />
