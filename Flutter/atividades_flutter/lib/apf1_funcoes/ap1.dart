@@ -3,7 +3,7 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const _MyApp());
 }
 
 /// Define uma lista de cores
@@ -17,8 +17,8 @@ final colorsList = [
   Colors.deepPurple,
 ];
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class _MyApp extends StatelessWidget {
+  const _MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {

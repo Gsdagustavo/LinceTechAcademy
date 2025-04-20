@@ -3,7 +3,7 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const _MyApp());
 }
 
 int tentativas = 2;
@@ -14,14 +14,9 @@ void resetGame() {
   won = false;
 }
 
-class MyApp extends StatefulWidget {
-  const MyApp({super.key});
+class _MyApp extends StatelessWidget {
+  const _MyApp({super.key});
 
-  @override
-  State<MyApp> createState() => _MyAppState();
-}
-
-class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
