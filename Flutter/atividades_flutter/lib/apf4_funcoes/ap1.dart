@@ -58,6 +58,7 @@ class _HomePage extends StatelessWidget {
 
       // appbar
       appBar: AppBar(
+        automaticallyImplyLeading: false,
         backgroundColor: Colors.blue,
         centerTitle: true,
         title: Text('Choose a color', style: TextStyle(color: Colors.white)),
@@ -73,6 +74,7 @@ class _HomePage extends StatelessWidget {
                   color: namedColor.color,
                   colorName: namedColor.name,
 
+                  // navigate to the detailed color page
                   onPressed: () {
                     Navigator.pushNamed(
                       context,
@@ -140,9 +142,29 @@ class _ColorDetails extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: Text(
-          colorName,
-          style: TextStyle(color: Colors.white, fontSize: 50),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            // color name text
+            Text(
+              colorName,
+              style: TextStyle(color: Colors.white, fontSize: 50),
+            ),
+
+            const SizedBox(height: 25),
+
+            // button to go back to the home page
+            ElevatedButton(
+              onPressed: () {
+                Navigator.pushNamed(context, '/');
+              },
+
+              child: Text(
+                'Back to the Home Page',
+                style: TextStyle(fontSize: 40),
+              ),
+            ),
+          ],
         ),
       ),
       backgroundColor: color,
