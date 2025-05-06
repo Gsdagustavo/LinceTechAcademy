@@ -33,12 +33,8 @@ class _MyApp extends StatelessWidget {
 
         // colors routes
         '/details': (context) {
-          final namedColor =
-              ModalRoute.of(context)!.settings.arguments as _NamedColor;
-          return _ColorDetails(
-            color: namedColor.color,
-            colorName: namedColor.name,
-          );
+          final namedColor = ModalRoute.of(context)!.settings.arguments as _NamedColor;
+          return _ColorDetails(color: namedColor.color, colorName: namedColor.name);
         },
       },
 
@@ -65,26 +61,24 @@ class _HomePage extends StatelessWidget {
       ),
 
       // defines a list view of colors that the user can interact with
-      body: ListView(
-        children:
-            _colorsList.map((namedColor) {
-              return Padding(
-                padding: const EdgeInsets.all(20.0),
-                child: _ColorTile(
-                  color: namedColor.color,
-                  colorName: namedColor.name,
+      body: ListView.builder(
+        itemCount: _colorsList.length,
+        itemBuilder: (context, index) {
+          final namedColor = _colorsList[index];
 
-                  // navigate to the detailed color page
-                  onPressed: () {
-                    Navigator.pushNamed(
-                      context,
-                      '/details',
-                      arguments: namedColor,
-                    );
-                  },
-                ),
-              );
-            }).toList(),
+          return Padding(
+            padding: const EdgeInsets.all(20.0),
+            child: _ColorTile(
+              color: namedColor.color,
+              colorName: namedColor.name,
+
+              // navigate to the detailed color page
+              onPressed: () {
+                Navigator.pushNamed(context, '/details', arguments: namedColor);
+              },
+            ),
+          );
+        },
       ),
     );
   }
@@ -92,12 +86,7 @@ class _HomePage extends StatelessWidget {
 
 // tile to click to go to the color page
 class _ColorTile extends StatelessWidget {
-  const _ColorTile({
-    super.key,
-    required this.color,
-    required this.onPressed,
-    required this.colorName,
-  });
+  const _ColorTile({super.key, required this.color, required this.onPressed, required this.colorName});
 
   final Color color;
   final String colorName;
@@ -106,18 +95,13 @@ class _ColorTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      decoration: BoxDecoration(
-        color: color,
-        borderRadius: BorderRadius.circular(12),
-      ),
+      decoration: BoxDecoration(color: color, borderRadius: BorderRadius.circular(12)),
 
       child: Padding(
         padding: const EdgeInsets.all(20.0),
         child: Row(
           children: [
-            Expanded(
-              child: Text(colorName, style: TextStyle(color: Colors.white)),
-            ),
+            Expanded(child: Text(colorName, style: TextStyle(color: Colors.white))),
             const SizedBox(width: 100),
             ElevatedButton(onPressed: onPressed, child: Text('See color')),
           ],
@@ -129,11 +113,7 @@ class _ColorTile extends StatelessWidget {
 
 // detailed color page
 class _ColorDetails extends StatelessWidget {
-  const _ColorDetails({
-    super.key,
-    required this.color,
-    required this.colorName,
-  });
+  const _ColorDetails({super.key, required this.color, required this.colorName});
 
   final Color color;
   final String colorName;
@@ -146,10 +126,7 @@ class _ColorDetails extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             // color name text
-            Text(
-              colorName,
-              style: TextStyle(color: Colors.white, fontSize: 50),
-            ),
+            Text(colorName, style: TextStyle(color: Colors.white, fontSize: 50)),
 
             const SizedBox(height: 25),
 
@@ -159,10 +136,7 @@ class _ColorDetails extends StatelessWidget {
                 Navigator.pushNamed(context, '/');
               },
 
-              child: Text(
-                'Back to the Home Page',
-                style: TextStyle(fontSize: 40),
-              ),
+              child: Text('Back to the Home Page', style: TextStyle(fontSize: 40)),
             ),
           ],
         ),

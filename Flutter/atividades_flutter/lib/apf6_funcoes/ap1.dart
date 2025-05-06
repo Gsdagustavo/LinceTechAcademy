@@ -12,11 +12,11 @@ const Color darkBlue = Color.fromARGB(255, 18, 32, 47);
 
 /// Usei um provider para "rastrear" o PessoaStates
 void main() {
-  runApp(ChangeNotifierProvider(create: (_) => PessoaStates(), child: const MyApp()));
+  runApp(ChangeNotifierProvider(create: (_) => PessoaStates(), child: const Ap6()));
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class Ap6 extends StatelessWidget {
+  const Ap6({super.key});
 
   @override
   Widget build(BuildContext context) {
